@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+virtu_GitFlow
+comandos.py
+main_descart.py
