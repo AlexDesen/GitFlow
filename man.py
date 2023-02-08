@@ -1,3 +1,4 @@
+
 itens_estoque = []
 
 def adicionar_itens_estoque():   
@@ -9,11 +10,11 @@ def adicionar_itens_estoque():
 
 
 def listar_itens_estoque():
-    print('++++++++++++++++++++')
+    print('------------------------------------')
     for item in itens_estoque:
         print(f"Nome:{item['nome']}")
         print(f"Quantindade:{item['quantidade']}")
-    print('++++++++++++++++++++') 
+    print('------------------------------------')
 
 if __name__ =="__main__":
     print('Sistema de estoque Ultima School\n')
