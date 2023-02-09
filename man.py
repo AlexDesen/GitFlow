@@ -18,6 +18,7 @@ def listar_itens_estoque():
     for item in itens_estoque:
 
         print(f'Nome:{item["nome"]}')
+        print(f'Descrição:{item["descricao"]}')
         print(f'Quantindade:{item["quantidade"]}')
        
     print('------------------------------------')
